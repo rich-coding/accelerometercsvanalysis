@@ -38,7 +38,7 @@ def plot_data(file_path):
         print("Error: El archivo CSV no contiene las columnas requeridas ('time', 'ax', 'ay', 'az', 'atotal').")
 
 # Ruta a tu archivo CSV. Asegúrate de que esta ruta sea correcta.
-csv_file = 'vallenato3.csv'  # Cambia 'your_data.csv' por el nombre de tu archivo
+csv_file = 'csv\sample.csv'  # Cambia 'your_data.csv' por el nombre de tu archivo
 
 # Llama a la función para generar el gráfico
 plot_data(csv_file)
