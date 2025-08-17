@@ -3,6 +3,9 @@ import os
 import random
 import shutil
 
+# Establecer la semilla para reproducibilidad
+random.seed(42)
+
 # --- CONFIGURACIÓN INICIAL ---
 # Carpeta con los archivos CSV de entrada
 directorio_entrada = 'csv'
